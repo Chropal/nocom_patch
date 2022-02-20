@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "nocom_patch",
+  "version": "${version}",
+
+  "name": "Nocom Patch",
+  "description": "",
+  "authors": [
+    "Chropal"
+  ],
+  "contact": {
+    "sources": "https://github.com/Chropal/nocom_patch"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "mixins": [
+    "nocom_patch.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.12.12",
+    "minecraft": "1.18.x",
+    "java": ">=17"
+  }
+}

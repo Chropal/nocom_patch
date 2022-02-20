@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "chropal.nocom_patch.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "server": [
+    "ServerPlayNetworkHandler_patchNocomMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
